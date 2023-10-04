@@ -1,0 +1,207 @@
+body {
+    background-color: black;
+    color: orange;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* !###################### */
+
+.header-background {
+    margin: 0px;
+    width: 100%;
+    height: 535px;
+    z-index: -2;
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 0px 35%;
+}
+
+/* !###################### */
+
+#oben {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+/* !###################### */
+
+.navbar ul:not(.dropdown) {
+    list-style-type: none;
+    background-color: black;
+    padding: 0pc;
+    display: table;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: orange;
+}
+
+.navbar a:not(.dropdown) {
+    color: orange;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-weight: 550;
+}
+
+.navbar a:hover:not(.dropdown) {
+    background-color: orange;
+    color: black;
+}
+
+.navbar li:not(.dropdown) {
+    float: left;
+}
+
+/* !###################### */
+
+.navbar ul li ul.dropdown li {
+    display: block;
+}
+
+.navbar ul li ul.dropdown {
+    position: absolute;
+    z-index: 3;
+    display: none;
+    list-style-type: none;
+    border: orange;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.navbar ul li.dropdown {
+    border-bottom: orange;
+    border-width: 1px;
+    border-style: solid;
+    padding-bottom: 0px;
+}
+
+.navbar ul li:hover ul.dropdown {
+    display: block;
+}
+
+.navbar ul li:hover a.dropdown {
+    display: block;
+    transition: 0.2s;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    font-weight: 550;
+}
+
+.navbar ul li a.dropdown {
+    background-color: black;
+    color: orange;
+}
+
+.navbar ul li a:hover.dropdown {
+    background-color: orange;
+    color: black;
+}
+
+.navbar ul.dropdown {
+    padding: 0;
+}
+
+/* !###################### */
+
+.container-logo-titel img{
+    width: 350px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin-left: 50px;
+}
+
+.container-logo-titel  h1 {
+    color: white;
+    z-index: 3;
+    font-size: 75px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Anton', sans-serif;
+    text-decoration: underline solid;
+    text-shadow: black 10px -5px 5px;
+    
+}
+
+.container-logo-titel {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 100px;
+    margin-top: 190px;
+}
+
+/* !###################### */
+
+/*  !Bild hinzufügen, als Slideshow  für zuasätzlichen Content */
+
+/* !###################### */
+
+.team-bild {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.back-to-the-roos {
+    width: 750px;
+    text-align: center;
+    margin-left: 0 auto;
+    z-index: 2;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* !###################### */
+
+#Titel-Website {
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    text-decoration: underline solid;
+    margin-bottom: 40px;
+}
+
+/* !###################### */
+
+#meldung {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline solid orange;
+    margin-bottom: 40px;
+}
+
+/* !###################### */
+
+.icons-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#yt {
+    color: red;
+}
+
+#in {
+    color: #6f00ff;
+}
+
+#tw {
+    color: white;
+}
+
+#fb {
+    color: #2469ff;
+}
+
+/* !###################### */
